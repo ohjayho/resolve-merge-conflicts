@@ -49,9 +49,9 @@ Merge 충돌은 Github에서 두 사람이 같은 파일을 변경 할 때 발�
 }).toString()
 -->
 
-[![연습 시작하기](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=resolve-merge-conflicts&owner=%40me&name=skills-resolve-merge-conflicts&description=My+clone+repository&visibility=public)
+[![Start course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=resolve-merge-conflicts&owner=%40me&name=skills-resolve-merge-conflicts&description=My+clone+repository&visibility=public)
 
-1. 연습 시작하기 버튼을 마우스 오른쪽 버튼으로 클릭하고, 새로운 탭으로 엽니다.
+1. Start Course 버튼을 마우스 오른쪽 버튼으로 클릭하고, 새로운 탭으로 엽니다.
 2. 열린 새 탭에서 여러분은 새로운 repo를 생성하게 됩니다.
    - 개인 계정으로 생성하시거나, organizaion 안에서 repo를 자유롭게 생성해주세요.
    - repo는 private으로 생성 시 과금이 되기 때문에, public으로 생성하시길 권장드립니다. [Github Action 과금](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
