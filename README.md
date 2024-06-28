@@ -29,7 +29,7 @@ Merge 충돌은 Github에서 두 사람이 같은 파일을 변경 할 때 발�
 - **전제 조건**: 이 연습을 진행하기 전에, 이 과정을 숙지하시기 바랍니다. [Introduction to GitHub](https://github.com/skills/introduction-to-github)
 - **얼마나 걸리나요?**: 이 연습은 30분 이내로 완료할 수 있습니다.
 
-이 연습에서 당신은:
+이 연습에서 여러분은:
 
 1. Pull request를 생성하고
 2. Merge 충돌을 해결하고
