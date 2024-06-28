@@ -4,22 +4,22 @@
   Define terms and link to docs.github.com.
 -->
 
-## Step 3: Create your own conflict
+## 3단계: 충돌을 유발해보세요.
 
-_Good job! You've solved a merge conflict! :tada:_
+_잘하셨습니다! merge 충돌을 해결하셨군요! :tada:_
 
-Resolving a conflict doesn't automatically merge the pull request in GitHub. Instead, it stores the resolution of the conflict in a merge commit and allows you and your team to keep working. To resolve a conflict, GitHub performs what is known as a _reverse merge_. This means that the changes from the `main` branch were merged into your `my-resume` branch. With a reverse merge, only the `my-resume` branch is updated. This allows you to test the resolved changes on your branch before you merge it into `main`.
+충돌을 해결하더라도 pull request가 자동으로 Github에 merge 되지는 않습니다. 대신에, 충돌 해결 상태를 merge commit에 저장하고, 여러분과 여러분 팀이 계속 작업할 수 있도록 합니다. 충돌을 해결하기 위해, Github은 _reverse merge_라는 것을 합니다. 이는 `main` 브랜치의 변경 사항이 `my-resume`에 merge된 것을 말합니다. reverse merge에 의해 오직 `my-resume` 브랜치만 업데이트 됩니다. 이는 main 브랜치에 merge 하기 전에 여러분의 브랜치에서 미리 테스트 해볼 수 있도록 합니다.
 
-Now, let's get a little evil. (It's for educational purposes!)
+이제, 좀 더 악랄하게 해봅시다. (온전히 여러분의 학습을 위해서!!)
 
-### :keyboard: Activity: Create your own conflict
+### :keyboard: 작업: 직접 충돌을 유발해 봅시다.
 
-We went ahead and added a new file called `references.md` and pushed that change to `main`, without updating your `my-resume` branch.
+현재 상태는 `references.md`라는 파일을 main 브랜치에 push 했지만, `my-resume` 브랜치에는 업데이트 하지 않은 상태입니다.
 
-1. Browse to the `my-resume` branch.
-1. Click the `Add file` dropdown menu and then on `Create new file`.
-1. Create a file named `references.md`.
-1. Enter some text that conflicts with what we added for `references.md` in the `main` branch.
-1. Scroll to the bottom of the page and enter a commit message for your change.
-1. Click the **Commit new file** button, making sure the "Commit directly to the `my-resume` branch" option is selected.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+1. `my-resume` 브랜치를 여세요.
+1. `Add file` 드롭다운 메뉴를 누르고 `Create new file`을 클릭합니다.
+1. 충돌을 일으키기 위해 파일의 이름을 `references.md`로 합니다.
+1. main 브랜치에 있는 `references.md`와 다르게 내용을 자유롭게 작성합니다.
+1. `Commit changes`를 클릭하고, commit 메세지를 작성합니다.
+1. "Commit directly to the `my-resume` branch" 옵션이 선택되어있는지 확인하고, **Commit changes** 버튼을 클릭합니다.
+1. 20초 후에 이 페이지를 새로고침 하면, [GitHub Actions](https://docs.github.com/en/actions) 이 자동으로 다음 단계로 안내합니다.
