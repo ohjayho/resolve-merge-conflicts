@@ -53,7 +53,7 @@ Merge 충돌은 Github에서 두 사람이 같은 파일을 변경 할 때 발�
 
 1. Start Course 버튼을 마우스 오른쪽 버튼으로 클릭하고, 새로운 탭으로 엽니다.
 2. 열린 새 탭에서 여러분은 새로운 repo를 생성하게 됩니다.
-   - 개인 계정으로 생성하시거나, organizaion 안에서 repo를 자유롭게 생성해주세요.
+   - 개인 계정이나, organization에서 repo를 자유롭게 생성해주세요.
    - repo는 private으로 생성 시 과금이 되기 때문에, public으로 생성하시길 권장드립니다. [Github Action 과금](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
    - 설정이 끝나셨으면 **Create repository** 버튼을 눌러 생성을 완료합니다.
 4. Repo가 생성 된 후 약 20초 뒤에, 해당 페이지에서 새로고침을 합니다. 새로고침을 하게 되면 README의 내용이 바뀌게 되고, README의 내용에 따라 연습을 진행하시면 됩니다.
