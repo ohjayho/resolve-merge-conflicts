@@ -7,9 +7,9 @@
   Add your open source license, GitHub uses MIT license.
 -->
 
-# Resolve merge conflicts
+# Merge 충돌 해결
 
-_Learn why conflicts happen and how to resolve them._
+_충돌 원인과 해결 방법에 대해 배워 봅시다._
 
 </header>
 
@@ -19,24 +19,24 @@ _Learn why conflicts happen and how to resolve them._
   and tell the learner why they should take the course.
 -->
 
-## Welcome
+## 반갑습니다.
 
-Merge conflicts happen when two people make changes to the same file on GitHub—a common occurrence when you’re working with others. While resolving differences might involve some discussion, merge conflicts don’t have to be scary. This course guides you through the steps to finding the best merge conflict solution, so your team can keep building.
+Merge 충돌은 Github에서 두 사람이 같은 파일을 변경 할 때 발생하고, 이는 협업에서 아주 흔한 일입니다. 충돌을 해결하기 위해서는 어느정도 수고가 필요하지만, 두려워 할 일은 아닙니다. 이 연습은 단계적 학습을 통해 여러분이 merge 충돌 해결 방법을 배울 수 있도록 도와드립니다.
 
-- **Who is this for**: New developers, new GitHub users, users new to Git, students, managers, teams.
-- **What you'll learn**: What merge conflicts are, how you resolve merge conflicts, how to reduce merge conflicts.
-- **What you'll build**: We'll work with a short Markdown resume file in this course.
-- **Prerequisites**: We recommend taking [Introduction to GitHub](https://github.com/skills/introduction-to-github) prior to this course.
-- **How long**: This course takes less than 30 minutes to complete.
+- **누구를 위한 연습인가요?**: 주니어 개발자, Github 처음 사용자, Git 처음 사용자, 학생, 관리자, 팀.
+- **여러분이 배울 것**: merge 충돌에 대해서, merge 충돌 해결 방법, merge 충돌을 줄이는 방법.
+- **여러분이 만들게 될 것**: 우리는 짧은 이력서 마크다운 파일을 사용할 것입니다.
+- **전제 조건**: 이 연습을 진행하기 전에, 이 과정을 숙지하시기 바랍니다. [Introduction to GitHub](https://github.com/skills/introduction-to-github)
+- **얼마나 걸리나요?**: 이 연습은 30분 이내로 걸립니다.
 
-In this course, you will:
+이 연습에서 당신은:
 
-1. Create a pull request
-2. Resolve a merge conflict
-3. Create a merge conflict
-4. Merge your pull request
+1. Pull request를 생성하고
+2. Merge 충돌을 해결하고
+3. Merge 충돌을 유발하고
+4. Pull request를 merge 할 것입니다.
 
-### How to start this course
+### 이 연습을 시작하는 방법.
 
 <!-- For start course, run in JavaScript:
 'https://github.com/new?' + new URLSearchParams({
@@ -49,14 +49,14 @@ In this course, you will:
 }).toString()
 -->
 
-[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=resolve-merge-conflicts&owner=%40me&name=skills-resolve-merge-conflicts&description=My+clone+repository&visibility=public)
+[![연습 시작하기](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=resolve-merge-conflicts&owner=%40me&name=skills-resolve-merge-conflicts&description=My+clone+repository&visibility=public)
 
-1. Right-click **Start course** and open the link in a new tab.
-2. In the new tab, most of the prompts will automatically fill in for you.
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
-3. After your new repository is created, wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in the new repository's README.
+1. 연습 시작하기 버튼을 마우스 오른쪽 버튼으로 클릭하고, 새로운 탭으로 엽니다.
+2. 열린 새 탭에서 여러분은 새로운 repo를 생성하게 됩니다.
+   - 개인 계정으로 생성하시거나, organizaion 안에서 repo를 자유롭게 생성해주세요.
+   - repo는 private으로 생성 시 과금이 되기 때문에, public으로 생성하시길 권장드립니다. [Github Action 과금](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
+   - 설정이 끝나셨으면 **Create repository** 버튼을 눌러 생성을 완료합니다.
+4. Repo가 생성 된 후 약 20초 뒤에, 해당 페이지에서 새로고침을 합니다. 새로고침을 하게 되면 README의 내용이 바뀌게 되고, README의 내용에 따라 연습을 진행하시면 됩니다.
 
 <footer>
 
